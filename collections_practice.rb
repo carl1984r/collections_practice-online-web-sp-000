@@ -25,7 +25,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-
+ array.detect {|x| x.index("a")}
 end
 
 def sum_array(array)
