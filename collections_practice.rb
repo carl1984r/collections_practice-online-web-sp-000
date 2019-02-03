@@ -35,5 +35,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each {|x| x << "s"}
+  array.each {|x| x << "s" if x.last != "t"}
 end
