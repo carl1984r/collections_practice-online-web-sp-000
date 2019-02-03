@@ -25,9 +25,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  y = array
   arr = []
-  array.collect {|x| arr << x if x != y[1]}
+  array.collect {|x| arr << x if x[0] == "a"}
   arr
 end
 
