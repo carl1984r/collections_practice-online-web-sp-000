@@ -26,7 +26,7 @@ end
 
 def find_a(array)
   arr = []
-  array.each {|x| arr << x if x.index("a")}
+  array.detect {|x| arr << x if x.index("a")}
   arr
 end
 
